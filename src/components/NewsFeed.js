@@ -8,7 +8,7 @@ const NewsFeed = () => {
       url: "https://crypto-news-live.p.rapidapi.com/news",
       headers: {
         "x-rapidapi-host": "crypto-news-live.p.rapidapi.com",
-        "x-rapidapi-key": process.env.REACT_APP_API_KEY,
+        "x-rapidapi-key": "8bbd4a3a3amsh318b561b3e86970p1ac936jsn80e3000a2b8c",
       },
     };
     console.log(process.env.REACT_APP_API_KEY);
