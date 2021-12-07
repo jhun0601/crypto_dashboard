@@ -5,13 +5,8 @@ const NewsFeed = () => {
   useEffect(() => {
     const options = {
       method: "GET",
-      url: "https://crypto-news-live.p.rapidapi.com/news",
-      headers: {
-        "x-rapidapi-host": "crypto-news-live.p.rapidapi.com",
-        "x-rapidapi-key": "8bbd4a3a3amsh318b561b3e86970p1ac936jsn80e3000a2b8c",
-      },
+      url: "http://localhost:5000/news",
     };
-    console.log(process.env.REACT_APP_API_KEY);
     axios
       .request(options)
       .then((response) => {
